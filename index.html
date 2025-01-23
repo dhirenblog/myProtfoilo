@@ -1,1 +1,151 @@
-<p>hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To My Portfolio</h1>
+        <marquee behavior="" direction=""><p>Frontend Developer</p></marquee>
+    </header>
+    <nav class="nav">
+        <a href="">HOME</a>
+        <a href="#g">GALLERY</a>
+        <a href="#s">SKILLS</a>
+        <a href="#c">CONTACT</a>
+    </nav>
+    <section>
+        <div class="info">
+            <div class="content">
+                <h3>Hello, I'm <span> Dhirendra Shah.</span></h3>
+
+                <p>Welcome to my portfolio website! I'm excited to share my journey and skills with you. I'm a
+                    passionate web developer with expertise in HTML, CSS, JavaScript, Bootstrap, Python, and Django.
+                    <br><br>
+
+                    From crafting visually appealing user interfaces with HTML and CSS to adding interactivity and
+                    dynamic features using JavaScript, I take pride in creating seamless and engaging web experiences.
+                    My proficiency in Bootstrap allows me to design responsive and mobile-friendly websites that adapt
+                    beautifully to various devices. <br><br>
+
+                    Python and Django are my go-to tools for building powerful web applications. With these
+                    technologies, I've been able to create robust backends that handle complex tasks and data
+                    management, ensuring smooth functionality and efficient user interactions. <br><br>
+
+                    Whether it's designing an elegant front-end, developing interactive web applications, or
+                    implementing backend solutions, I thrive on turning ideas into reality. I'm constantly exploring new
+                    technologies and trends to stay at the forefront of web development, enabling me to bring fresh and
+                    innovative solutions to the table. <br><br>
+
+                    Feel free to explore my portfolio to see some of the projects I've worked on. If you're interested
+                    in collaborating or have any inquiries, don't hesitate to get in touch.
+                </p> <br>
+                <p class="thank">Thank you for visiting, and I look forward to connecting with you!</p>
+            </div>
+            <div class="img"> <img src="about.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <div class="gallery" id="g">
+        <div>
+            <u>
+                <h3>GALLERY</h3>
+            </u>
+        </div>
+        <div class="image">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="8.jpg" alt="">
+            <img src="5.jpg" alt="">
+            <img src="6.jpg" alt="">
+            <img src="7.jpg" alt="">
+            <img src="4.jpeg" alt="">
+            <img src="10.jpg" alt="">
+            <img src="11.jpg" alt="">
+            <img src="12.jpg" alt="">
+            <img src="9.jpg" alt="">
+            <img src="13.jpg" alt="">
+        </div>
+    </div>
+
+    <hr>
+    <div class="skill" id="s">
+        <div>
+            <u>
+                <h3>SKILLS</h3>
+            </u>
+        </div>
+        <div class="picture">
+            <div class="p">
+                <p class="text">HTML</p>
+                <img src="html.png" alt="">
+            </div>
+           <div class="p">
+            <p class="text">CSS</p>
+            <img src="css.png" alt="">
+
+           </div>
+           <div class="p">
+            <p class="text"> BOOTSTRAP</p>
+            <img src="bootstrap.jpg" alt="">
+           </div>
+           <div class="p">
+            <p class="text">PYTHON</p>
+            <img src="python.png" alt="">
+           </div>
+           <div class="p">
+            <p class="text">JAVA SCRIPTS</p>
+            <img src="js.png" alt="">
+           </div>
+        </div>
+
+    </div>
+
+    <div class="container" id="c">
+        <div style="text-align:center">
+          <h3><u>CONTACT</u></h2>
+        </div>
+        <div class="row">
+          <div class="column">
+           <h4>E-mail: <i>shahdhiren624@gmail.com</i></h4>
+           <h4>Phone : <i>9815371330</i></h4>
+           <h4>Address: <i>Barahakshetra-04, Sunsari</i></h4><br><br><br><br>
+           <a href="#" class="fa fa-facebook"></a>
+           <a href="#" class="fa fa-linkedin"></a>
+           <a href="#" class="fa fa-instagram"></a>
+           <a href="#" class="fa fa-youtube"></a>
+           <a href="#" class="fa fa-instagram"></a>
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Messages</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Design by Dhirendra Shah</h2>
+    </footer>
+</body>
+
+</html>
